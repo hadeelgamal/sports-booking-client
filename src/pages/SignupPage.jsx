@@ -73,7 +73,7 @@ function SignupPage(props) {
                 value={password}
                 onChange={handlePassword}
               />
-              <label for="cars">Choose a car:</label>
+              <label for="cars">Choose a role:</label>
 
               <select name="role" id="role" onChange={handleRole}>
                 <option value="Student">Student</option>
